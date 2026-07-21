@@ -275,7 +275,7 @@ curl -X POST http://127.0.0.1:3100/sync -d 'returnTo=/'
 ### JSON API
 
 ```bash
-curl 'http://127.0.0.1:3100/api/v2/dashboard?view=individual&developer=Joey%20Rahme'
+curl 'http://127.0.0.1:3100/api/v2/dashboard?view=individual&developer='
 ```
 
 Returns the full `DashboardResponse` shape (see [`src/shared/types.ts`](src/shared/types.ts)).
